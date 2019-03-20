@@ -3,7 +3,7 @@ def insert(conjunto, elemento):
 	pass
 
 """ Remove um elemento no conjunto, caso ele exista """
-def remove(conjunto):
+def remove(conjunto, elemento):
 	pass
 
 """ Verifica se um elemento existe no conjunto """
