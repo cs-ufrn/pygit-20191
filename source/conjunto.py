@@ -1,11 +1,13 @@
 """ Insere um elemento no conjunto, caso ele não exista """
 def insert(conjunto, elemento):
-	pass
+	conjunto.add(elemento)
+        return conjunto
 
 """ Remove um elemento no conjunto, caso ele exista """
 def remove(conjunto, elemento):
-	pass
+	conjunto.discard(elemento)
+        return conjunto
 
 """ Verifica se um elemento existe no conjunto """
 def exists(conjunto, elemento):
-	pass
+	return elemento in conjunto
