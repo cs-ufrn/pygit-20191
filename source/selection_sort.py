@@ -1,5 +1,5 @@
 """ Retorna uma lista ordenada, utilizando o algoritmo selection sort """
-def selection_sort(alist):		
+def selection_sort(alist):
    for preencherLocal in range(len(alist)-1,0,-1):   #for que inicia do último elemento da lista e volta até o primeiro
        posicaoDeMaximo=0				  #Max =0 é o indice do primeiro elemento, considerado máximo
        for local in range(1,preencherLocal+1):	  # for que vai do segundo elemento até o elemento seguinte de fillslot
