@@ -6,4 +6,4 @@ def selection_sort(alist):
            if alist[local]>alist[posicaoDeMaximo]:  #condicional para dizer qual elemento é o maior
                posicaoDeMaximo = local		     #caso atendido, o índice do máximo é atualizado
        alist[posicaoDeMaximo],alist[preencherLocal] = alist[preencherLocal], alist[posicaoDeMaximo]	#após encontrado, posições são trocadas: elemento máximo com a maior posição determinada pelo fillslot (será a maior posição não ordenada)
-
+   return alist
